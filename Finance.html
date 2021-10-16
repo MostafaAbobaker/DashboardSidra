@@ -1,0 +1,2593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="operation  " class="operation show">
+        <div class="NewDashboardNew">
+            <div class="title-page d-flex justify-content-space-between">
+                <div class="title-text">
+                    <h4>Financial Dashboard</h4>
+                    <small>C-level Management</small>
+                </div>
+                <div class="flter d-flex">
+                    <div class="form-group">
+                        <label for="" class="col-sm-2 control-label">From</label>
+                        <div class="col-sm-10">
+                            <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="" class="col-sm-2 control-label">To</label>
+                        <div class="col-sm-10">
+                            <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control">
+                  <option>Select period</option>
+                  <option>Today</option>
+                  <option>Yesterday</option>
+                  <option>Current Week</option>
+                  <option>Previous Week</option>
+                  <option>Current Month</option>
+                  <option>Previous Month</option>
+                  <option>Current Quarter</option>
+                  <option>Previous Quarter</option>
+                  <option>Current Year</option>
+                  <option>Previous Year</option>
+                 
+              </select>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#Cash" aria-controls="Cash" role="tab" data-toggle="tab">Cash</a></li>
+                            <li role="presentation"><a href="#Revenue" aria-controls="Revenue" role="tab" data-toggle="tab">Revenue</a></li>
+                            <li role="presentation"><a href="#Supply" aria-controls="Supply" role="tab" data-toggle="tab">Supply</a></li>
+                            <li role="presentation"><a href="#AssetUtilization" aria-controls="AssetUtilization" role="tab" data-toggle="tab">Asset Utilization</a></li>
+                            <li role="presentation"><a href="#Budgets" aria-controls="Budgets" role="tab" data-toggle="tab">Budgets</a></li>
+                        </ul>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <!-- Start Tap One -->
+                            <div role="tabpanel" class="tab-pane active" id="Cash">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Total Incoming
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">123,459,9459</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Total Outgoing
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">234,234,234</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Net Available
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">123,459,9459</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Cash to debt ratio
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number ">
+                                                    2.3
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="">Cash flow
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                    <div class="select-box d-flex">
+
+                                                        <select class="form-control w-50 ">
+                                                          <option>Month</option>
+                                                          <option>Outpatient</option>
+                                                          <option>Emergency</option>
+                                                          <option>All</option>
+                                                      </select>
+                                                        <select class="form-control w-50">
+                                                          <option>Year</option>
+                                                          <option>Outpatient</option>
+                                                          <option>Emergency</option>
+                                                          <option>All</option>
+                                                      </select>
+                                                    </div>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div id="Cashflow3" width="900" height="300"></div>
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="">Bank flow
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                    <div class="select-box d-flex">
+
+                                                        <select class="form-control w-50 ">
+                                                            <option>Month</option>
+                                                            <option>Outpatient</option>
+                                                            <option>Emergency</option>
+                                                            <option>All</option>
+                                                        </select>
+                                                        <select class="form-control w-50">
+                                                            <option>Year</option>
+                                                            <option>Outpatient</option>
+                                                            <option>Emergency</option>
+                                                            <option>All</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div id="Bankflow3" width="900" height="300"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Incoming Payments by Type
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Transaction</th>
+                                                                <th>Num TRX</th>
+                                                                <th>Amount</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Credit card</td>
+                                                                <td>200</td>
+                                                                <td class="text-success">KD 129,291,129</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Cash</td>
+                                                                <td>400</td>
+                                                                <td class="text-success">KD 129,291,129</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Checks</td>
+                                                                <td>1000</td>
+                                                                <td class="text-success">KD 129,291,129</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Outgoing payment by type
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Transaction</th>
+                                                                <th>Num TRX</th>
+                                                                <th>Amount</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Checks</td>
+                                                                <td>200</td>
+                                                                <td class="text-danger">KD 129,291,129</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Wire transfers</td>
+                                                                <td>400</td>
+                                                                <td class="text-danger">KD 129,291,129</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Cash</td>
+                                                                <td>1000</td>
+                                                                <td class="text-danger">KD 129,291,129</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Bank Balance
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Bank</th>
+                                                                <th>Amount</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Qnp</td>
+                                                                <td class="text-success">KD 129,291,129</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Alahly Bank</td>
+                                                                <td class="text-success">KD 129,291,129</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Alahly Bank</td>
+                                                                <td class="text-success">KD 129,291,129</td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Aging collection
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div id="AgingCollection"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="">Account receivable
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                    <select class="form-control">
+                                                  <option>Medical operations</option>
+                                                  <option>Outpatient</option>
+                                                  <option>Emergency</option>
+                                                  <option>All</option>
+                                              </select>
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Transaction</th>
+                                                                <th>Amount</th>
+                                                                <th>Collected</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Insurance</td>
+                                                                <td>KD 129,291,129</td>
+                                                                <td>KD 129,291</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Cash</td>
+                                                                <td>KD 129,291,129</td>
+                                                                <td>KD 129,291</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Checks</td>
+                                                                <td>KD 129,291,129</td>
+                                                                <td>KD 129,291</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Insurance</td>
+                                                                <td>KD 129,291,129</td>
+                                                                <td>KD 129,291</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Cash</td>
+                                                                <td>KD 129,291,129</td>
+                                                                <td>KD 129,291</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Checks</td>
+                                                                <td>KD 129,291,129</td>
+                                                                <td>KD 129,291</td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- End Tap One -->
+
+                            <!-- Start Tap Two -->
+                            <div role="tabpanel" class="tab-pane" id="Revenue">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Total Revenue
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">20,000,000</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Total Patients
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">40,000</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Average treatment cost
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">500</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Head count
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number ">
+                                                    453
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="">Revenue by division
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                    <select class="form-control">
+                                                  <option>In patients</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                              </select>
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div id="RevenueByDivision"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Gynacology
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+
+                                                        <div class="col-lg-5">
+                                                            <div class="Device-box " style="height: 150px;">
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>10.2M</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Contribution</small>
+                                                                    <h5>12%</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                            <div id="Gynacology55"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Cardiology
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+
+                                                        <div class="col-lg-5">
+                                                            <div class="Device-box " style="height: 150px;">
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>10.2M</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Contribution</small>
+                                                                    <h5>12%</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                            <div id="Cardiology55"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Division
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+
+                                                        <div class="col-lg-5">
+                                                            <div class="Device-box " style="height: 150px;">
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>10.2M</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Contribution</small>
+                                                                    <h5>12%</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                            <div id="Division55"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Division 3
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+
+                                                        <div class="col-lg-5">
+                                                            <div class="Device-box" style="height: 150px;">
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>10.2M</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Contribution</small>
+                                                                    <h5>12%</h5>
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                            <div id="Division66"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-4">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Radiology
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div id="Radiology55" style="height: 326px"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Laboratory
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div id="Laboratory55" style="height: 326px"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="">Prescription
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                    <select class="form-control">
+                                                  <option>Out patients</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                              </select>
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div id="Prescription"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="">Revenue to cost by division
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                    <select class="form-control">
+                                                  <option>In patients</option>
+                                                  <option>2</option>
+                                                  <option>3</option>
+                                                  <option>4</option>
+                                                  <option>5</option>
+                                              </select>
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div id="RevenueCostByDivision"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Gynacology
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+
+                                                        <div class="col-lg-5">
+                                                            <div class="Device-box " style="height: 150px;">
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>10.2M</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Contribution</small>
+                                                                    <h5>12%</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                            <div id="Gynacology56"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Cardiology
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+
+                                                        <div class="col-lg-5">
+                                                            <div class="Device-box " style="height: 150px;">
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>10.2M</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Contribution</small>
+                                                                    <h5>12%</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                            <div id="Cardiology56"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Division
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+
+                                                        <div class="col-lg-5">
+                                                            <div class="Device-box " style="height: 150px;">
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>10.2M</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Contribution</small>
+                                                                    <h5>12%</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                            <div id="Division56"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Division 3
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+
+                                                        <div class="col-lg-5">
+                                                            <div class="Device-box" style="height: 150px;">
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>10.2M</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Contribution</small>
+                                                                    <h5>12%</h5>
+                                                                </div>
+
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-7">
+                                                            <div id="Division76"></div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Profitability
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+
+                                                <div class="card-chart-body">
+                                                    <div id="Profitability"></div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Start Tap End -->
+
+                            <!-- Start Tap Three -->
+                            <div role="tabpanel" class="tab-pane" id="Supply">
+                                <div class="container-fluid">
+                                    <div class="row">
+
+
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard" style="padding: 20px 10px">
+                                                <div class="card-dashBoard-title">Total cost of supplies
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">123,232,544</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard" style="padding: 20px 10px">
+                                                <div class="card-dashBoard-title">Payables
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">403,000</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Suppliers Pareto
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">12 | 24%</div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
+                                                        80%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Items pareto
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">246 | 16%</div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
+                                                        80%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Inventory replenishment
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div class="box" style="height: 300px;width: 500px;margin:auto;">
+                                                        <div id="InventoryReplenishment"></div>
+
+                                                    </div>
+                                                    <h5>On time delivery</h5>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
+                                                            80%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Items with highest TOR
+
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Item</th>
+                                                                <th>Qty at hand</th>
+                                                                <th>Avg Qty</th>
+                                                                <th>Cost of Avg Qty</th>
+                                                                <th>Turn over ratio</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>ITEM1</td>
+                                                                <td>200</td>
+                                                                <td>400</td>
+                                                                <td>2,939,393</td>
+                                                                <td>6</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>ITEM2</td>
+                                                                <td>400</td>
+                                                                <td>800</td>
+                                                                <td>2,939,393</td>
+                                                                <td>3.4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>ITEM3</td>
+                                                                <td>1000</td>
+                                                                <td>600</td>
+                                                                <td>2,939,393</td>
+                                                                <td>2</td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+
+
+                                                </div>
+                                            </div>
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Items with Lowest TOR
+
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Item</th>
+                                                                <th>Qty at hand</th>
+                                                                <th>Avg Qty</th>
+                                                                <th>Cost of Avg Qty</th>
+                                                                <th>Turn over ratio</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>ITEM1</td>
+                                                                <td>200</td>
+                                                                <td>400</td>
+                                                                <td>2,939,393</td>
+                                                                <td>6</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>ITEM2</td>
+                                                                <td>400</td>
+                                                                <td>800</td>
+                                                                <td>2,939,393</td>
+                                                                <td>3.4</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>ITEM3</td>
+                                                                <td>1000</td>
+                                                                <td>600</td>
+                                                                <td>2,939,393</td>
+                                                                <td>2</td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Tap Three -->
+
+                            <!-- Start Tap Four -->
+                            <div role="tabpanel" class="tab-pane" id="AssetUtilization">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Bed turn over rate
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">7.5 / Bed</div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
+                                                        80%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Operating room utilization
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">64%</div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
+                                                        80%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">Wards Occupancy
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">64%</div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
+                                                        80%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3">
+                                            <div class="card-dashBoard">
+                                                <div class="card-dashBoard-title">ICU Occupancy
+                                                    <a href="#"><i class="fa fa-exclamation-circle" ></i></a>
+                                                </div>
+                                                <div class="card-dashBoard-Number">64%</div>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="2" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 80%;">
+                                                        80%
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="card-chart" style="height: 230px;">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Device 1 Utilization
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div id="Device1"></div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="Device-box ">
+                                                                <div class="boxs  ">
+                                                                    <small>Utilization</small>
+                                                                    <h5>32%</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>2,300,049</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Change</small>
+                                                                    <h5>3%
+                                                                        <i class="fa fa-arrow-up text-success"></i>
+
+                                                                    </h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Cost of operation</small>
+                                                                    <h5>1,684,494</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card-chart" style="height: 230px;">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Device 3 Utilization
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div id="Device2"></div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="Device-box ">
+                                                                <div class="boxs  ">
+                                                                    <small>Utilization</small>
+                                                                    <h5>32%</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>2,300,049</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Change</small>
+                                                                    <h5>3%
+                                                                        <i class="fa fa-arrow-up text-success"></i>
+
+                                                                    </h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Cost of operation</small>
+                                                                    <h5>1,684,494</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card-chart" style="height: 230px;">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Device 4 Utilization
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div id="Device3"></div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="Device-box ">
+                                                                <div class="boxs  ">
+                                                                    <small>Utilization</small>
+                                                                    <h5>32%</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>2,300,049</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Change</small>
+                                                                    <h5>3%
+                                                                        <i class="fa fa-arrow-up text-success"></i>
+
+                                                                    </h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Cost of operation</small>
+                                                                    <h5>1,684,494</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card-chart" style="height: 230px;">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Device 2 Utilization
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div id="Device4"></div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="Device-box ">
+                                                                <div class="boxs  ">
+                                                                    <small>Utilization</small>
+                                                                    <h5>32%</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>2,300,049</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Change</small>
+                                                                    <h5>3%
+                                                                        <i class="fa fa-arrow-up text-success"></i>
+
+                                                                    </h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Cost of operation</small>
+                                                                    <h5>1,684,494</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card-chart" style="height: 230px;">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Device 5 Utilization
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div id="Device5"></div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="Device-box ">
+                                                                <div class="boxs  ">
+                                                                    <small>Utilization</small>
+                                                                    <h5>32%</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>2,300,049</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Change</small>
+                                                                    <h5>3%
+                                                                        <i class="fa fa-arrow-up text-success"></i>
+
+                                                                    </h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Cost of operation</small>
+                                                                    <h5>1,684,494</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="card-chart" style="height: 230px;">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Device 6 Utilization
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <div id="Device6"></div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="Device-box ">
+                                                                <div class="boxs  ">
+                                                                    <small>Utilization</small>
+                                                                    <h5>32%</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Revenue</small>
+                                                                    <h5>2,300,049</h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Change</small>
+                                                                    <h5>3%
+                                                                        <i class="fa fa-arrow-up text-success"></i>
+
+                                                                    </h5>
+                                                                </div>
+                                                                <div class="boxs  ">
+                                                                    <small>Cost of operation</small>
+                                                                    <h5>1,684,494</h5>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- End Tap Four -->
+                            <!-- Start Tap five -->
+                            <div role="tabpanel" class="tab-pane" id="Budgets">
+                                <div class="container-fluid">
+
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Opex budegt vs Opex actual
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div id="OpexBudegt"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="card-chart">
+                                                <div class="card-chart-tile">
+                                                    <h4 class="d-flex justify-content-space-between w-100">Capex budegt vs Capex actual
+                                                        <a href="#"><i class="fa fa-exclamation-circle" ></i></a></h4>
+
+                                                </div>
+                                                <div class="card-chart-body">
+                                                    <div id="CapexBudegt"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <!-- End Tap five -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var categories = ['Jun ', 'Jul ', 'Aug ', 'Sep ', 'Oct ', 'Nov ', 'Dec ', 'Jan ', 'Feb ', 'Mar ', 'Apr ', 'May '];
+
+        Highcharts.chart('Bankflow3', {
+            chart: {
+                height: 350,
+                type: 'column'
+            },
+            title: {
+                text: ''
+            },
+
+            accessibility: {
+                point: {
+                    valueDescriptionFormat: '{index}. Age {xDescription}, {value}%.'
+                }
+            },
+            xAxis: [{
+                categories: categories,
+                reversed: false,
+                labels: {
+                    step: 1
+                },
+                accessibility: {
+                    description: 'Age (male)'
+                }
+            }, { // mirror axis on right side
+                opposite: true,
+                reversed: false,
+                categories: categories,
+                linkedTo: 0,
+                labels: {
+                    step: 1
+                },
+                accessibility: {
+                    description: 'Age (female)'
+                }
+            }],
+            yAxis: {
+                title: {
+                    text: null
+                },
+                labels: {
+                    formatter: function() {
+                        return Math.abs(this.value) + '%';
+                    }
+                },
+                accessibility: {
+                    description: 'Percentage population',
+                    rangeDescription: 'Range: 0 to 5%'
+                }
+            },
+
+            plotOptions: {
+                series: {
+                    stacking: 'normal'
+                }
+            },
+
+            tooltip: {
+                formatter: function() {
+                    return '<b>' + this.series.name + ', age ' + this.point.category + '</b><br/>' +
+                        'Population: ' + Highcharts.numberFormat(Math.abs(this.point.y), 1) + '%';
+                }
+            },
+
+            series: [{
+                showInLegend: false,
+                data: [-2.2, -2.1, -2.2, -2.4, -2.7, -3.0, -3.3, -3.2, -2.9, -3.5, -4.4, -4.1],
+                color: '#FF4560',
+            }, {
+                showInLegend: false,
+                data: [
+                    2.1, 2.0, 2.1, 2.3, 2.6,
+                    2.9, 3.2, 3.1, 2.9, 3.4,
+                    4.3, 4.0
+                ],
+                color: '#00E396',
+            }]
+        });
+    </script>
+    <script>
+        var categories = ['Jun ', 'Jul ', 'Aug ', 'Sep ', 'Oct ', 'Nov ', 'Dec ', 'Jan ', 'Feb ', 'Mar ', 'Apr ', 'May '];
+
+        Highcharts.chart('Cashflow3', {
+            chart: {
+                height: 350,
+                type: 'column'
+            },
+            title: {
+                text: ''
+            },
+
+            accessibility: {
+                point: {
+                    valueDescriptionFormat: '{index}. Age {xDescription}, {value}%.'
+                }
+            },
+            xAxis: [{
+                categories: categories,
+                reversed: false,
+                labels: {
+                    step: 1
+                },
+                accessibility: {
+                    description: 'Age (male)'
+                }
+            }, { // mirror axis on right side
+                opposite: true,
+                reversed: false,
+                categories: categories,
+                linkedTo: 0,
+                labels: {
+                    step: 1
+                },
+                accessibility: {
+                    description: 'Age (female)'
+                }
+            }],
+            yAxis: {
+                title: {
+                    text: null
+                },
+                labels: {
+                    formatter: function() {
+                        return Math.abs(this.value) + '%';
+                    }
+                },
+                accessibility: {
+                    description: 'Percentage population',
+                    rangeDescription: 'Range: 0 to 5%'
+                }
+            },
+
+            plotOptions: {
+                series: {
+                    stacking: 'normal'
+                }
+            },
+
+            tooltip: {
+                formatter: function() {
+                    return '<b>' + this.series.name + ', age ' + this.point.category + '</b><br/>' +
+                        'Population: ' + Highcharts.numberFormat(Math.abs(this.point.y), 1) + '%';
+                }
+            },
+
+            series: [{
+                showInLegend: false,
+                data: [-2.2, -2.1, -2.2, -2.4, -2.7, -3.0, -3.3, -3.2, -2.9, -3.5, -4.4, -4.1],
+                color: '#FF4560',
+            }, {
+                showInLegend: false,
+                data: [
+                    2.1, 2.0, 2.1, 2.3, 2.6,
+                    2.9, 3.2, 3.1, 2.9, 3.4,
+                    4.3, 4.0
+                ],
+                color: '#00E396',
+            }]
+        });
+    </script>
+
+    <script>
+        var options = {
+            series: [{
+                name: 'Pending',
+                data: [25, 75, 55, 55, 7.5, 25, 98, 75, 75, 65, 55, 55]
+            }],
+            chart: {
+                type: 'bar',
+                height: 250,
+                stacked: true,
+                toolbar: {
+                    show: false,
+                },
+                zoom: {
+                    enabled: true
+                }
+            },
+            responsive: [{
+                breakpoint: 480,
+                options: {
+                    legend: {
+                        position: 'bottom',
+                        offsetX: -10,
+                        offsetY: 0
+                    }
+                }
+            }],
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    borderRadius: 10
+                },
+            },
+            xaxis: {
+                categories: ['5', '10', '15', '20', '30', '45', '60', '90', '120', '180', '240', '300+'],
+            },
+            legend: {
+                position: 'bottom',
+
+            },
+            fill: {
+                opacity: 1
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#AgingCollection"), options);
+        chart.render();
+    </script>
+
+
+
+    <!-- Start Tap two -->
+    <script>
+        var options = {
+            series: [30, 30, 40],
+            labels: ['Full', 'Non', 'Partial'],
+            chart: {
+                type: 'donut',
+            },
+            responsive: [{
+                breakpoint: 400,
+                options: {
+
+                    chart: {
+                        width: 200
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }]
+        };
+
+        var chart = new ApexCharts(document.querySelector("#Prescription"), options);
+        chart.render();
+    </script>
+    <!-- Start Tap Three -->
+    <script>
+        var options = {
+            series: [30, 10, 40, 20],
+            labels: ['Placed orders', 'Shipped orders', 'Delivered orders', 'Returned orders'],
+            chart: {
+                type: 'donut',
+            },
+            responsive: [{
+                breakpoint: 400,
+                options: {
+
+                    chart: {
+                        width: 200,
+                        height: 200,
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }]
+        };
+
+        var chart = new ApexCharts(document.querySelector("#InventoryReplenishment"), options);
+        chart.render();
+    </script>
+    <!-- Start Tap Five  -->
+    <script>
+        var options = {
+            series: [{
+                name: 'Pending',
+                data: [25, 75, 55, 55, 7.5, 98, 75, 75, 65, 55, 55]
+            }],
+            chart: {
+                type: 'bar',
+                height: 250,
+                stacked: true,
+                toolbar: {
+                    show: false,
+                },
+                zoom: {
+                    enabled: true
+                }
+            },
+            responsive: [{
+                breakpoint: 480,
+                options: {
+                    legend: {
+                        position: 'bottom',
+                        offsetX: -10,
+                        offsetY: 0
+                    }
+                }
+            }],
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    borderRadius: 10
+                },
+            },
+            xaxis: {
+                categories: ['Division1', 'Division2', 'Division3', 'Division4', 'Division5', 'Division6', 'Division7', 'Division8', 'Division9', 'Division10', 'Division11'],
+            },
+            legend: {
+                position: 'bottom',
+
+            },
+            fill: {
+                opacity: 1
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#OpexBudegt"), options);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#CapexBudegt"), options);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#Profitability"), options);
+        chart.render();
+    </script>
+
+
+
+
+
+    <!-- Start Tap two -->
+    <script>
+        var options = {
+            series: [{
+                name: "Division",
+                data: [
+                    [-16.4, 5.4],
+                    [21.7, -2],
+                    [25.4, 3],
+                    [19, 2],
+                    [10.9, 1],
+                    [13.6, -3.2],
+                    [10.9, 7.4],
+                    [-10.9, 0],
+                    [-10.9, 8.2],
+                    [16.4, 0],
+                    [16.4, 1.8],
+                    [13.6, 0.3],
+                    [13.6, 0],
+                    [29.9, 0],
+                    [27.1, 2.3],
+                    [16.4, 0],
+                    [13.6, 3.7],
+                    [10.9, 5.2],
+                    [16.4, 6.5],
+                    [10.9, 0],
+                    [24.5, 7.1],
+                    [10.9, 0],
+                    [8.1, 4.7],
+                    [19, 0],
+                    [21.7, 1.8],
+                    [27.1, 0],
+                    [24.5, 0],
+                    [27.1, 0],
+                    [29.9, 1.5],
+                    [27.1, 0.8],
+                    [22.1, 2]
+                ]
+            }, {
+                name: "Cardiology",
+                data: [
+                    [36.4, -13.4],
+                    [1.7, 11],
+                    [5.4, -8],
+                    [9, 17],
+                    [1.9, 4],
+                    [3.6, 12.2],
+                    [-1.9, 14.4],
+                    [1.9, -9],
+                    [1.9, 13.2],
+                    [1.4, 7],
+                    [6.4, 8.8],
+                    [-3.6, 4.3],
+                    [1.6, 10],
+                    [9.9, 2],
+                    [7.1, 15],
+                    [1.4, 0],
+                    [3.6, -13.7],
+                    [1.9, 15.2],
+                    [6.4, 16.5],
+                    [-0.9, 10],
+                    [4.5, 17.1],
+                    [10.9, 10],
+                    [0.1, 14.7],
+                    [9, 10],
+                    [12.7, 11.8],
+                    [2.1, 10],
+                    [2.5, 10],
+                    [27.1, 10],
+                    [2.9, 11.5],
+                    [7.1, 10.8],
+                    [2.1, 12]
+                ]
+            }, {
+                name: "Gynacology",
+                data: [
+                    [21.7, 3],
+                    [23.6, 3.5],
+                    [-24.6, 3],
+                    [29.9, 3],
+                    [-21.7, 20],
+                    [23, 2],
+                    [10.9, 3],
+                    [28, 4],
+                    [27.1, 0.3],
+                    [-16.4, -4],
+                    [13.6, 0],
+                    [19, 5],
+                    [22.4, 3],
+                    [24.5, 3],
+                    [-32.6, 3],
+                    [27.1, 4],
+                    [29.6, 6],
+                    [31.6, 8],
+                    [21.6, 5],
+                    [20.9, 4],
+                    [22.4, 0],
+                    [32.6, 10.3],
+                    [29.7, 20.8],
+                    [24.5, 0.8],
+                    [21.4, 0],
+                    [21.7, 6.9],
+                    [28.6, 7.7],
+                    [15.4, 0],
+                    [18.1, 0],
+                    [33.4, 0],
+                    [16.4, 0]
+                ]
+            }],
+            chart: {
+                height: 800,
+                type: 'scatter',
+                zoom: {
+                    enabled: true,
+                    type: 'xyz'
+                }
+            },
+            xaxis: {
+                tickAmount: 10,
+                title: {
+                    text: 'Revenue contribution',
+                },
+                labels: {
+                    formatter: function(val) {
+                        return parseFloat(val).toFixed(1)
+                    }
+                }
+            },
+            yaxis: {
+                tickAmount: 7,
+                title: {
+                    text: 'Cost contribution',
+                },
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#RevenueCostByDivision"), options);
+        chart.render();
+    </script>
+
+
+    <script>
+        function generateData(baseval, count, yrange) {
+            var i = 0;
+            var series = [];
+            while (i < count) {
+                var x = Math.floor(Math.random() * (100 - 1 + 1)) + 1;;
+                var y = Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
+                var z = Math.floor(Math.random() * (75 - 15 + 1)) + 15;
+
+                series.push([x, y, z]);
+                baseval -= 86400000;
+                i++;
+            }
+            return series;
+        }
+
+        var options = {
+            series: [{
+                name: 'Gynacology',
+                data: generateData(new Date('11 Feb 2017 GMT').getTime(), 20, {
+                    min: -50,
+                    max: 60
+                }),
+
+            }, {
+                name: 'Division',
+                data: generateData(new Date('11 Feb 2017 GMT').getTime(), 20, {
+                    min: -50,
+                    max: 60
+                })
+            }],
+            chart: {
+                height: 820,
+                type: 'bubble',
+            },
+            dataLabels: {
+                enabled: false
+            },
+            fill: {
+                opacity: 0.8
+            },
+            title: {
+                text: 'Revenue'
+            },
+            xaxis: {
+                tickAmount: 12,
+                type: 'category',
+            },
+            yaxis: {
+                max: 60
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#RevenueByDivision"), options);
+
+        chart.render();
+    </script>
+    <script>
+        Highcharts.chart('Radiology55', {
+            chart: {
+                type: 'funnel'
+            },
+            title: {
+                text: '',
+            },
+            plotOptions: {
+                series: {
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b> ({point.y:,.0f})',
+                        softConnector: true
+                    },
+                    center: ['40%', '50%'],
+                    //neckWidth: '30%',
+                    neckHeight: '0',
+                    width: '80%'
+                }
+            },
+            legend: {
+                enabled: true,
+            },
+            series: [{
+                name: 'Unique users',
+                data: [
+                    ['Schedueled', 5000],
+                    ['Started', 4000],
+                    ['Finished', 3000],
+                    ['Confirmed', 1000]
+                ]
+            }],
+
+            responsive: {
+                rules: [{
+                    condition: {
+                        maxWidth: 500
+                    },
+                    chartOptions: {
+                        plotOptions: {
+                            series: {
+                                dataLabels: {
+                                    inside: true
+                                },
+                                center: ['50%', '50%'],
+                                width: '100%'
+                            }
+                        }
+                    }
+                }]
+            }
+        });
+    </script>
+    <script>
+        Highcharts.chart('Laboratory55', {
+            chart: {
+                type: 'funnel'
+            },
+            title: {
+                text: '',
+            },
+            plotOptions: {
+                series: {
+                    dataLabels: {
+                        enabled: true,
+                        format: '<b>{point.name}</b> ({point.y:,.0f})',
+                        softConnector: true
+                    },
+                    center: ['40%', '50%'],
+                    //neckWidth: '30%',
+                    neckHeight: '0',
+                    width: '80%'
+                }
+            },
+            legend: {
+                enabled: true,
+            },
+            series: [{
+                name: 'Unique users',
+                data: [
+                    ['Schedueled', 5000],
+                    ['Started', 4000],
+                    ['Finished', 3000],
+                    ['Confirmed', 1000]
+                ]
+            }],
+
+            responsive: {
+                rules: [{
+                    condition: {
+                        maxWidth: 500
+                    },
+                    chartOptions: {
+                        plotOptions: {
+                            series: {
+                                dataLabels: {
+                                    inside: true
+                                },
+                                center: ['50%', '50%'],
+                                width: '100%'
+                            }
+                        }
+                    }
+                }]
+            }
+        });
+    </script>
+
+    <script>
+        var options = {
+            series: [{
+                name: 'TEAM A',
+                type: 'line',
+                data: [10, 20, 35]
+            }, {
+                name: 'TEAM B',
+                type: 'area',
+                data: [12, 22, 33]
+            }, {
+                name: 'TEAM C',
+                type: 'line',
+                data: [10, 20, 35]
+            }],
+            chart: {
+                height: 150,
+                type: 'line',
+                stacked: false,
+                toolbar: {
+                    show: false,
+                },
+            },
+            stroke: {
+                width: [5, 7, 5],
+                curve: 'straight',
+                dashArray: [0, 8, 5]
+            },
+            plotOptions: {
+                bar: {
+                    columnWidth: '50%'
+                }
+            },
+            legend: {
+                show: false,
+            },
+            fill: {
+                opacity: [0.85, 0.25, 1],
+                gradient: {
+                    inverseColors: false,
+                    shade: 'light',
+                    type: "vertical",
+                    opacityFrom: 0.85,
+                    opacityTo: 0.55,
+                    stops: [0, 100, 100, 100]
+                }
+            },
+            labels: ['January', 'February', 'March'],
+            markers: {
+                size: 0
+            },
+
+        };
+
+        var chart = new ApexCharts(document.querySelector("#Gynacology55"), options);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#Cardiology55"), options);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#Division55"), options);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#Division66"), options);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#Gynacology56"), options);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#Cardiology56"), options);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#Division56"), options);
+        chart.render();
+        var chart = new ApexCharts(document.querySelector("#Division76"), options);
+        chart.render();
+    </script>
+
+
+
+
+    <!-- Start Tap Four -->
+
+    <script>
+        window.feed = function(callback) {
+            var tick = {};
+            tick.plot0 = Math.ceil(350 + (Math.random() * 500));
+            callback(JSON.stringify(tick));
+        };
+        var myConfig = {
+            type: "gauge",
+            globals: {
+                fontSize: 0
+            },
+            plotarea: {
+                marginTop: 20
+            },
+            plot: {
+                size: '100%',
+                valueBox: {
+                    placement: 'center',
+                    text: '%v', //default
+                    fontSize: 18,
+                    rules: [{
+                        rule: '%v >= 300',
+                        text: '%v<br> '
+                    }, {
+                        rule: '%v < 100 && %v > 66.666',
+                        text: '%v<br>Good'
+                    }, {
+                        rule: '%v < 66.666 && %v > 33.333',
+                        text: '%v<br>Fair'
+                    }, {
+                        rule: '%v <  33.333',
+                        text: '%v<br>Bad'
+                    }]
+                }
+            },
+            tooltip: {
+                borderRadius: 3
+            },
+            scaleR: {
+                aperture: 180,
+                minValue: 300,
+                maxValue: 850,
+                step: 50,
+                center: {
+                    visible: false
+                },
+                tick: {
+                    visible: false
+                },
+                item: {
+                    offsetR: 0,
+                    rules: [{
+                        rule: '%i == 9',
+                        offsetX: 15
+                    }]
+                },
+                ring: {
+                    size: 30,
+                    rules: [{
+                            rule: '%v <= 330',
+                            backgroundColor: '#E53935'
+                        },
+
+                        {
+                            rule: '%v >= 330 && %v < 660',
+                            backgroundColor: '#FFA726'
+                        }, {
+                            rule: '%v >= 700',
+                            backgroundColor: '#29B6F6'
+                        }
+                    ]
+                }
+            },
+            refresh: {
+                type: "feed",
+                transport: "js",
+                url: "feed()",
+                interval: 1000,
+                resetTimeout: 1000
+            },
+            series: [{
+                values: [755], // starting value
+                backgroundColor: 'black',
+                indicator: [10, 10, 10, 10, 0.75],
+                animation: {
+                    effect: 2,
+                    method: 1,
+                    sequence: 4,
+                    speed: 900
+                },
+            }]
+        };
+
+        zingchart.render({
+            id: 'Device1',
+            data: myConfig,
+            height: 250,
+            width: '100%'
+        });
+    </script>
+    <script>
+        window.feed = function(callback) {
+            var tick = {};
+            tick.plot0 = Math.ceil(350 + (Math.random() * 500));
+            callback(JSON.stringify(tick));
+        };
+        var myConfig = {
+            type: "gauge",
+            globals: {
+                fontSize: 0
+            },
+            plotarea: {
+                marginTop: 20
+            },
+            plot: {
+                size: '100%',
+                valueBox: {
+                    placement: 'center',
+                    text: '%v', //default
+                    fontSize: 18,
+                    rules: [{
+                        rule: '%v >= 300',
+                        text: '%v<br> '
+                    }, {
+                        rule: '%v < 100 && %v > 66.666',
+                        text: '%v<br>Good'
+                    }, {
+                        rule: '%v < 66.666 && %v > 33.333',
+                        text: '%v<br>Fair'
+                    }, {
+                        rule: '%v <  33.333',
+                        text: '%v<br>Bad'
+                    }]
+                }
+            },
+            tooltip: {
+                borderRadius: 3
+            },
+            scaleR: {
+                aperture: 180,
+                minValue: 300,
+                maxValue: 850,
+                step: 50,
+                center: {
+                    visible: false
+                },
+                tick: {
+                    visible: false
+                },
+                item: {
+                    offsetR: 0,
+                    rules: [{
+                        rule: '%i == 9',
+                        offsetX: 15
+                    }]
+                },
+                ring: {
+                    size: 30,
+                    rules: [{
+                            rule: '%v <= 330',
+                            backgroundColor: '#E53935'
+                        },
+
+                        {
+                            rule: '%v >= 330 && %v < 660',
+                            backgroundColor: '#FFA726'
+                        }, {
+                            rule: '%v >= 700',
+                            backgroundColor: '#29B6F6'
+                        }
+                    ]
+                }
+            },
+            refresh: {
+                type: "feed",
+                transport: "js",
+                url: "feed()",
+                interval: 1000,
+                resetTimeout: 1000
+            },
+            series: [{
+                values: [755], // starting value
+                backgroundColor: 'black',
+                indicator: [10, 10, 10, 10, 0.75],
+                animation: {
+                    effect: 2,
+                    method: 1,
+                    sequence: 4,
+                    speed: 900
+                },
+            }]
+        };
+
+        zingchart.render({
+            id: 'Device2',
+            data: myConfig,
+            height: 250,
+            width: '100%'
+        });
+    </script>
+    <script>
+        window.feed = function(callback) {
+            var tick = {};
+            tick.plot0 = Math.ceil(350 + (Math.random() * 500));
+            callback(JSON.stringify(tick));
+        };
+        var myConfig = {
+            type: "gauge",
+            globals: {
+                fontSize: 0
+            },
+            plotarea: {
+                marginTop: 20
+            },
+            plot: {
+                size: '100%',
+                valueBox: {
+                    placement: 'center',
+                    text: '%v', //default
+                    fontSize: 18,
+                    rules: [{
+                        rule: '%v >= 300',
+                        text: '%v<br> '
+                    }, {
+                        rule: '%v < 100 && %v > 66.666',
+                        text: '%v<br>Good'
+                    }, {
+                        rule: '%v < 66.666 && %v > 33.333',
+                        text: '%v<br>Fair'
+                    }, {
+                        rule: '%v <  33.333',
+                        text: '%v<br>Bad'
+                    }]
+                }
+            },
+            tooltip: {
+                borderRadius: 3
+            },
+            scaleR: {
+                aperture: 180,
+                minValue: 300,
+                maxValue: 850,
+                step: 50,
+                center: {
+                    visible: false
+                },
+                tick: {
+                    visible: false
+                },
+                item: {
+                    offsetR: 0,
+                    rules: [{
+                        rule: '%i == 9',
+                        offsetX: 15
+                    }]
+                },
+                ring: {
+                    size: 30,
+                    rules: [{
+                            rule: '%v <= 330',
+                            backgroundColor: '#E53935'
+                        },
+
+                        {
+                            rule: '%v >= 330 && %v < 660',
+                            backgroundColor: '#FFA726'
+                        }, {
+                            rule: '%v >= 700',
+                            backgroundColor: '#29B6F6'
+                        }
+                    ]
+                }
+            },
+            refresh: {
+                type: "feed",
+                transport: "js",
+                url: "feed()",
+                interval: 1000,
+                resetTimeout: 1000
+            },
+            series: [{
+                values: [755], // starting value
+                backgroundColor: 'black',
+                indicator: [10, 10, 10, 10, 0.75],
+                animation: {
+                    effect: 2,
+                    method: 1,
+                    sequence: 4,
+                    speed: 900
+                },
+            }]
+        };
+
+        zingchart.render({
+            id: 'Device3',
+            data: myConfig,
+            height: 250,
+            width: '100%'
+        });
+    </script>
+    <script>
+        window.feed = function(callback) {
+            var tick = {};
+            tick.plot0 = Math.ceil(350 + (Math.random() * 500));
+            callback(JSON.stringify(tick));
+        };
+        var myConfig = {
+            type: "gauge",
+            globals: {
+                fontSize: 0
+            },
+            plotarea: {
+                marginTop: 20
+            },
+            plot: {
+                size: '100%',
+                valueBox: {
+                    placement: 'center',
+                    text: '%v', //default
+                    fontSize: 18,
+                    rules: [{
+                        rule: '%v >= 300',
+                        text: '%v<br> '
+                    }, {
+                        rule: '%v < 100 && %v > 66.666',
+                        text: '%v<br>Good'
+                    }, {
+                        rule: '%v < 66.666 && %v > 33.333',
+                        text: '%v<br>Fair'
+                    }, {
+                        rule: '%v <  33.333',
+                        text: '%v<br>Bad'
+                    }]
+                }
+            },
+            tooltip: {
+                borderRadius: 3
+            },
+            scaleR: {
+                aperture: 180,
+                minValue: 300,
+                maxValue: 850,
+                step: 50,
+                center: {
+                    visible: false
+                },
+                tick: {
+                    visible: false
+                },
+                item: {
+                    offsetR: 0,
+                    rules: [{
+                        rule: '%i == 9',
+                        offsetX: 15
+                    }]
+                },
+                ring: {
+                    size: 30,
+                    rules: [{
+                            rule: '%v <= 330',
+                            backgroundColor: '#E53935'
+                        },
+
+                        {
+                            rule: '%v >= 330 && %v < 660',
+                            backgroundColor: '#FFA726'
+                        }, {
+                            rule: '%v >= 700',
+                            backgroundColor: '#29B6F6'
+                        }
+                    ]
+                }
+            },
+            refresh: {
+                type: "feed",
+                transport: "js",
+                url: "feed()",
+                interval: 1000,
+                resetTimeout: 1000
+            },
+            series: [{
+                values: [755], // starting value
+                backgroundColor: 'black',
+                indicator: [10, 10, 10, 10, 0.75],
+                animation: {
+                    effect: 2,
+                    method: 1,
+                    sequence: 4,
+                    speed: 900
+                },
+            }]
+        };
+
+        zingchart.render({
+            id: 'Device4',
+            data: myConfig,
+            height: 250,
+            width: '100%'
+        });
+    </script>
+    <script>
+        window.feed = function(callback) {
+            var tick = {};
+            tick.plot0 = Math.ceil(350 + (Math.random() * 500));
+            callback(JSON.stringify(tick));
+        };
+        var myConfig = {
+            type: "gauge",
+            globals: {
+                fontSize: 0
+            },
+            plotarea: {
+                marginTop: 20
+            },
+            plot: {
+                size: '100%',
+                valueBox: {
+                    placement: 'center',
+                    text: '%v', //default
+                    fontSize: 18,
+                    rules: [{
+                        rule: '%v >= 300',
+                        text: '%v<br> '
+                    }, {
+                        rule: '%v < 100 && %v > 66.666',
+                        text: '%v<br>Good'
+                    }, {
+                        rule: '%v < 66.666 && %v > 33.333',
+                        text: '%v<br>Fair'
+                    }, {
+                        rule: '%v <  33.333',
+                        text: '%v<br>Bad'
+                    }]
+                }
+            },
+            tooltip: {
+                borderRadius: 3
+            },
+            scaleR: {
+                aperture: 180,
+                minValue: 300,
+                maxValue: 850,
+                step: 50,
+                center: {
+                    visible: false
+                },
+                tick: {
+                    visible: false
+                },
+                item: {
+                    offsetR: 0,
+                    rules: [{
+                        rule: '%i == 9',
+                        offsetX: 15
+                    }]
+                },
+                ring: {
+                    size: 30,
+                    rules: [{
+                            rule: '%v <= 330',
+                            backgroundColor: '#E53935'
+                        },
+
+                        {
+                            rule: '%v >= 330 && %v < 660',
+                            backgroundColor: '#FFA726'
+                        }, {
+                            rule: '%v >= 700',
+                            backgroundColor: '#29B6F6'
+                        }
+                    ]
+                }
+            },
+            refresh: {
+                type: "feed",
+                transport: "js",
+                url: "feed()",
+                interval: 1000,
+                resetTimeout: 1000
+            },
+            series: [{
+                values: [755], // starting value
+                backgroundColor: 'black',
+                indicator: [10, 10, 10, 10, 0.75],
+                animation: {
+                    effect: 2,
+                    method: 1,
+                    sequence: 4,
+                    speed: 900
+                },
+            }]
+        };
+
+        zingchart.render({
+            id: 'Device5',
+            data: myConfig,
+            height: 250,
+            width: '100%'
+        });
+    </script>
+    <script>
+        window.feed = function(callback) {
+            var tick = {};
+            tick.plot0 = Math.ceil(350 + (Math.random() * 500));
+            callback(JSON.stringify(tick));
+        };
+        var myConfig = {
+            type: "gauge",
+            globals: {
+                fontSize: 0
+            },
+            plotarea: {
+                marginTop: 20
+            },
+            plot: {
+                size: '100%',
+                valueBox: {
+                    placement: 'center',
+                    text: '%v', //default
+                    fontSize: 18,
+                    rules: [{
+                        rule: '%v >= 300',
+                        text: '%v<br> '
+                    }, {
+                        rule: '%v < 100 && %v > 66.666',
+                        text: '%v<br>Good'
+                    }, {
+                        rule: '%v < 66.666 && %v > 33.333',
+                        text: '%v<br>Fair'
+                    }, {
+                        rule: '%v <  33.333',
+                        text: '%v<br>Bad'
+                    }]
+                }
+            },
+            tooltip: {
+                borderRadius: 3
+            },
+            scaleR: {
+                aperture: 180,
+                minValue: 300,
+                maxValue: 850,
+                step: 50,
+                center: {
+                    visible: false
+                },
+                tick: {
+                    visible: false
+                },
+                item: {
+                    offsetR: 0,
+                    rules: [{
+                        rule: '%i == 9',
+                        offsetX: 15
+                    }]
+                },
+                ring: {
+                    size: 30,
+                    rules: [{
+                            rule: '%v <= 330',
+                            backgroundColor: '#E53935'
+                        },
+
+                        {
+                            rule: '%v >= 330 && %v < 660',
+                            backgroundColor: '#FFA726'
+                        }, {
+                            rule: '%v >= 700',
+                            backgroundColor: '#29B6F6'
+                        }
+                    ]
+                }
+            },
+            refresh: {
+                type: "feed",
+                transport: "js",
+                url: "feed()",
+                interval: 1000,
+                resetTimeout: 1000
+            },
+            series: [{
+                values: [755], // starting value
+                backgroundColor: 'black',
+                indicator: [10, 10, 10, 10, 0.75],
+                animation: {
+                    effect: 2,
+                    method: 1,
+                    sequence: 4,
+                    speed: 900
+                },
+            }]
+        };
+
+        zingchart.render({
+            id: 'Device6',
+            data: myConfig,
+            height: 250,
+            width: '100%'
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+﻿.NewDashboardNew {
+    padding: 10px;
+    padding-inline-start: 90px;
+    padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.NewDashboardNew .container-fluid {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.NewDashboardNew .title-page {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.NewDashboardNew .title-page .title-text h4 {
+    margin: 0;
+}
+
+.NewDashboardNew .title-page .title-text h4~small {
+    font-size: 14px;
+    color: #999;
+}
+
+.NewDashboardNew .title-page .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.NewDashboardNew .title-page .form-group label {
+    font-size: 14px;
+}
+
+.NewDashboardNew ul.nav-tabs {
+    display: flex;
+    font-size: 16px;
+    border: none;
+}
+
+.NewDashboardNew ul.nav-tabs li {
+    flex: 1;
+    margin: 0 5px;
+}
+
+.NewDashboardNew ul.nav-tabs li a {
+    border: 1px solid #254bb3;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.NewDashboardNew ul.nav-tabs>li>a:hover {
+    border-color: #254bb3;
+    background-color: rgba(37, 75, 179, .20);
+}
+
+.NewDashboardNew ul.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    background-color: #254bb3;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}
+
+.NewDashboardNew .tab-content {
+    padding-top: 10px
+}
+
+.NewDashboardNew .card-dashBoard {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    font-size: 16px;
+}
+
+.NewDashboardNew .card-dashBoard .card-dashBoard-title {
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 500;
+}
+
+.NewDashboardNew .progress {
+    margin-bottom: 0;
+    height: 15px;
+}
+
+.NewDashboardNew .progress .progress-bar {
+    font-size: 10px;
+    line-height: 15px;
+    background-color: #2196f3;
+}
+
+.NewDashboardNew .card-dashBoard .card-dashBoard-Number {
+    font-size: 26px;
+    font-weight: 600;
+    padding-inline-start: 10px;
+    color: #254bb3;
+}
+
+.NewDashboardNew .card-chart {
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .20);
+    margin-bottom: 10px;
+}
+
+.NewDashboardNew .card-chart .card-chart-tile {
+    background-color: #254bb3;
+    color: #fff !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NewDashboardNew .card-chart .card-chart-tile h4 {
+    padding: 7px 15px;
+    margin: 0;
+}
+
+.NewDashboardNew .card-chart .card-chart-tile a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.NewDashboardNew .card-chart .card-chart-tile select.form-control {
+    width: 25%;
+    margin: 5px;
+    margin-inline-end: 15px;
+}
+
+.NewDashboardNew .card-chart .card-chart-body {
+    /*min-height : 200px;*/
+    padding: 10px;
+}
+
+.NewDashboardNew .card-chart .card-chart-body .Device-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    height: 180px;
+}
+
+.NewDashboardNew .card-chart .card-chart-body .Device-box .boxs {
+    width: 50%;
+}
+
+.NewDashboardNew .card-chart .card-chart-body .Device-box h5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.NewDashboardNew .card-chart .card-chart-body .Device-box small {
+    font-size: 14px;
+}
+
+.NewDashboardNew .card-chart .card-chart-body table.table {
+    margin-bottom: 0;
+}
+
+.NewDashboardNew .card-chart .card-chart-body table.Quality-table {
+    text-align: center;
+    border: none;
+}
+
+.NewDashboardNew .card-chart .card-chart-body table.Quality-table thead th {
+    text-align: center;
+}
+
+.NewDashboardNew .card-chart .card-chart-body table.Quality-table thead th,
+.NewDashboardNew .card-chart .card-chart-body table.Quality-table tbody th {
+    border: none !important
+}
+
+.NewDashboardNew .card-chart .card-chart-body table.Quality-table tbody th {
+    text-align: end;
+}
+
+.NewDashboardNew .card-chart .card-chart-body table.Quality-table body td {
+    background-color: #eee;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-space-between {
+    justify-content: space-between !important;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-start {
+    justify-content: flex-start !important;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly !important;
+}
+
+.text-warning {
+    color: #ffeb3b;
+}
+
+.text-danger {
+    color: #c9302c;
+}
+
+.float-right {
+    float: right;
+}
+
+.mx-5 {
+    margin: 0 5px;
+}
+
+.mb-5 {
+    margin-bottom: 15px;
+}
+
+.w-100 {
+    width: 100%!important
+}
+
+.w-50 {
+    width: 50%!important
+}
+
+.w-25 {
+    width: 25%!important
+}
